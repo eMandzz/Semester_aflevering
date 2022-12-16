@@ -1,3 +1,26 @@
 @charset "utf-8";
 /* CSS Document */
 
+.topnav {
+	background-color: #3000F9;
+	overflow: hidden;
+}
+
+.topnav a {
+	float: left;
+	color: #0080FF;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 17px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.topnav a:hover {
+	background-color: white;
+	color: black;
+}
+
+.topnav a.active {
+	background-color: white;
+	color: black;
+}
