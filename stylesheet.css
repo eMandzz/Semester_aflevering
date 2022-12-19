@@ -7,7 +7,7 @@ body {
 }
 
 .top_image {
-		height: 130px;
+		position: static;
 		margin-top: -400px;
 		padding-left: 15px;
 		padding-right: 15px;
@@ -42,22 +42,26 @@ body {
 	}
 	
 	.logo {
-		position: fixed;
-		top: 75px;
-		left: 330px;
+		position: static;
+		margin-top: -430px;
+		padding-left: 350px;
 	}
 
 
 li:hover a {
 	box-sizing: border-box;
 	width: 100%;
-	border: solid black 5px;
-	padding: 5px;
+	border: solid black 3px;
+	padding: 3px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
 }
 
-.velkommen-tekst h2 {
-	margin-top: 2000px;
+.Velkommen-tekst{
+	position: static;
+	margin-top: 320px;
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 46px;
 }
