@@ -1,3 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
 
+li:hover a {
+	box-sizing: border-box;
+	width: 100%;
+	border: solid black 5px;
+	padding: 5px;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
