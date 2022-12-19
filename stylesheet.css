@@ -4,48 +4,48 @@
 
 body {
 	background-color: #F3F3F3;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
 .top_image {
-		position: static;
-		margin-top: -400px;
-		padding-left: 15px;
-		padding-right: 15px;
-		background-size: cover;
-	}	
+	position: static;
+	margin-top: -400px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-size: cover;
+}	
 	
-	header {
-		background-color: #3000F9;
-		position: fixed;
-		left: 0;
-		right: 0;
-		top: 5px;
-		height: 50px;
-		display: flex;
-		align-items: center;
-		box-shadow: 0 0 25px 0 black;
-		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-		font-size: 30px;
-	}
+header {
+	background-color: #3000F9;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 5px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	box-shadow: 0 0 25px 0 black;
+	font-size: 30px;
+}
 	
-	header * {
-		display: inline;
-	}
+header * {
+	display: inline;
+}
 	
-	header li {
-		margin: 100px;
-	}
+header li {
+	margin: 100px;
+}
 	
-	header a {
-		color: black;
-		text-decoration: none;
-	}
+header a {
+	color: black;
+	text-decoration: none;
+}
 	
-	.logo {
-		position: static;
-		margin-top: -430px;
-		padding-left: 350px;
-	}
+.logo {
+	position: static;
+	margin-top: -430px;
+	padding-left: 350px;
+}
 
 
 li:hover a {
@@ -59,9 +59,17 @@ li:hover a {
 }
 
 .Velkommen-tekst{
-	position: static;
 	margin-top: 320px;
 	text-align: center;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 46px;
+}
+
+.tekst {
+	font-size: 16px;
+	min-width: 400px;
+	max-width: 400px;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.4;
 }
