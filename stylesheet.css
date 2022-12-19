@@ -33,7 +33,7 @@ header * {
 }
 	
 header li {
-	margin: 100px;
+	margin: 120px;
 }
 	
 header a {
@@ -52,7 +52,7 @@ li:hover a {
 	box-sizing: border-box;
 	width: 100%;
 	border: solid black 3px;
-	padding: 3px;
+	padding: 0px;
 	border-top: 0px;
 	border-left: 0px;
 	border-right: 0px;
