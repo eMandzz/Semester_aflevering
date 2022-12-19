@@ -63,6 +63,7 @@ li:hover a {
 	text-align: center;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 	font-size: 46px;
+	text-shadow: 2px 2px darkgray;
 }
 
 .tekst {
