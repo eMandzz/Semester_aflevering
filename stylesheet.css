@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+body {
+	background-color: #F3F3F3;
+}
+
 .top_image {
 		height: 130px;
 		margin-top: -400px;
@@ -53,6 +58,6 @@ li:hover a {
 	border-right: 0px;
 }
 
-.velkommen_tekst {
-	top: 1000px;
+.velkommen-tekst h2 {
+	margin-top: 2000px;
 }
